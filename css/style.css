@@ -1,0 +1,159 @@
+body 
+{
+	font-family:Arial, Sans-Serif;
+	font-size: 18px;
+}
+.clearfix:before, .clearfix:after 
+{
+	 content: ""; 
+	 display: table;
+}
+.clearfix:after 
+{ 
+	clear: both; 
+}
+a 
+{
+	color:#78b941; 
+	text-decoration:none;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+.form
+{
+	width: 90%; margin: 0 auto;
+}
+input[type='text'], input[type='email'], input[type='password'] 
+{
+	width: 200px; 
+	border-radius: 2px;
+	border: 1px solid #CCC; 
+	padding: 10px; color: #333; 
+	font-size: 14px; 
+	margin-top: 10px;
+}
+input[type='submit']
+{
+	padding: 10px 25px 8px; 
+	color: #fff; 
+	background-color: #78b941; 
+	text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
+	font-size: 16px; 
+	box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; 
+	border: 1px solid #6faf38; 
+	border-radius: 2px; 
+	margin-top: 10px; 
+	cursor:pointer;
+}
+input[type='submit']:hover 
+{
+	background-color: #80c248;
+}
+table,th,td,tr
+{
+	border: 2px black solid;
+	border-collapse: collapse;
+}
+a
+{
+	margin-top: 20px;
+}
+#welcome
+{
+	text-align: left;
+	margin-top: 1%;
+	margin-left:2%;
+	margin-right: 1%;
+}
+#btnLogout
+{
+	text-align: right;
+	margin-top: 0%;
+	margin-left:80%;
+	margin-right: 0%;
+}
+/*style for index.php*/
+#heading
+{
+	text-align: left;
+	margin-top: -1%;
+	margin-left:-1%;
+	margin-right:-1%;
+	text-align: center;
+	height:100px;
+	border: 1px solid black;
+	background-color: #003399;
+	color: white;
+	clear: both;
+}
+#form1
+{
+		margin-left:70%;
+}
+#logoAside
+{
+	height : 500px;
+	width: 500px;
+	/*margin-top:5%;*/
+	margin-left:10%;
+	float: left;
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+#loginAside
+{
+	margin-top: 5%;
+}
+#footer
+{
+	clear: both;
+	text-align: center;
+	margin-top: 25%;
+}
+/*style for home.php*/
+#asideOptions
+{
+	height : 80%;
+	width: 10%;
+	margin-top:2%;
+	/*margin-left:10%;*/
+	float: left;
+	text-align: left;
+	/*border: 1px solid black;*/
+}
+.btn
+{
+	width: 100px;
+}
+#asideMain
+{
+	margin-top:5%;
+	height : 80%;
+	width: 50%;
+	/*border: 1px solid black;*/
+	float:right;	
+}
+#asideMain1
+{
+	margin-top:5%;
+	margin-left:30%;
+	height : 80%;
+	width: 50%;
+	/*border: 1px solid black;*/
+	float:left;	
+}
+#profileTable,.tr
+{
+	border: none;
+}
+#asideProfile
+{
+	margin-top:2%;
+	margin-left:25%;
+	height : 80%;
+	width: 26%;
+	/*border: 1px solid black;*/
+	float:left;	
+}
